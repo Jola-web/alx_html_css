@@ -5,7 +5,7 @@
   <title>SmileSchool</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
-  <script src="https://kit.fontawesome.com/4a2b055604.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -20,146 +20,136 @@
   </header>
 
   <main>
-   <section class="hero-section">
-  <div class="intro">
-    <h1>Get schooled</h1>
-    <span>SMILES</span>
-    <span>GRIN</span>
-    <span>LAUGH</span>
-    <button>REGISTER FOR FREE</button>
-  </div>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="intro">
+        <h1>Get schooled</h1>
+        <div class="smile-row">
+          <span>SMILES</span>
+          <span>GRIN</span>
+          <span>LAUGH</span>
+        </div>
+        <button class="register-btn">REGISTER FOR FREE</button>
+      </div>
+      <div class="learn-pros">
+        <h2>Learn from the pros</h2>
+        <div class="pros-container">
+          <div class="pro">
+            <img src="./images/phillip.png" alt="Phillip Massey">
+            <h3>Phillip Massey</h3>
+            <p>« Smile of the year » 2018 - 2019</p>
+          </div>
+          <div class="pro">
+            <img src="./images/nannie.png" alt="Nannie Lawrence">
+            <h3>Nannie Lawrence</h3>
+            <p>Best « little smile » 2017</p>
+          </div>
+          <div class="pro">
+            <img src="./images/bruce.png" alt="Bruce Walters">
+            <h3>Bruce Walters</h3>
+            <p>Best « Friend Smile » live performance 2019</p>
+          </div>
+          <div class="pro">
+            <img src="./images/henry.png" alt="Henry Hughes">
+            <h3>Henry Hughes</h3>
+            <p>« 24h smiles » winner 2016 - 2019</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <div class="learn-pros">
-    <h2>Learn from the pros</h2>
-    <div class="pros-container">
-      <div class="pro">
-        <img src="./images/phillip.png" alt="Phillip Massey">
-        <h3>Phillip Massey</h3>
-        <p>« Smile of the year » 2018 - 2019</p>
-      </div>
-      <div class="pro">
-        <img src="./images/nannie.png" alt="Nannie Lawrence">
-        <h3>Nannie Lawrence</h3>
-        <p>Best « little smile » 2017</p>
-      </div>
-      <div class="pro">
-        <img src="./images/bruce.png" alt="Bruce Walters">
-        <h3>Bruce Walters</h3>
-        <p>Best « Friend Smile » live performance 2019</p>
-      </div>
-      <div class="pro">
-        <img src="./images/henry.png" alt="Henry Hughes">
-        <h3>Henry Hughes</h3>
-        <p>« 24h smiles » winner 2016 - 2019</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-    <!-- Testimonial -->
-    <section>
-      <div>
-        <img src="./images/testimonials.png" alt="Testimonial image">
-      </div>
-      <div>
+    <!-- Testimonial Section -->
+    <section class="quote-section">
+      <img src="./images/testimonials.png" alt="Testimonial image">
+      <div class="quote-text">
         <blockquote>
           « Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun! »
         </blockquote>
-        <h3>NAME</h3>
+        <h3>John Doe</h3>
         <p>Weather Presenter</p>
       </div>
     </section>
 
-    <!-- Popular Tutorials -->
-    <section>
+    <!-- Popular Tutorials Section -->
+    <section class="tutorials-section">
       <h2>Most popular tutorials</h2>
-      <div>
-        <img src="./images/tuto_1.png" alt="Tutorial 1">
-        <img src="./images/tuto_2.png" alt="Tutorial 2">
-        <img src="./images/tuto_3.png" alt="Tutorial 3">
-        <img src="./images/tuto_4.png" alt="Tutorial 4">
+      <div class="tutorials-grid">
+        <div class="tutorial-card">
+          <img src="./images/tuto_1.png" alt="Tutorial 1">
+        </div>
+        <div class="tutorial-card">
+          <img src="./images/tuto_2.png" alt="Tutorial 2">
+        </div>
+        <div class="tutorial-card">
+          <img src="./images/tuto_3.png" alt="Tutorial 3">
+        </div>
+        <div class="tutorial-card">
+          <img src="./images/tuto_4.png" alt="Tutorial 4">
+        </div>
       </div>
     </section>
 
     <!-- Membership Section -->
-    <section>
-      <h2>Free membership</h2>
-      <div>
-        <div>
-          <img src="./images/smile.svg" alt="Smile icon">
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div>
-          <img src="./images/smile.svg" alt="Smile icon">
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div>
-          <img src="./images/smile.svg" alt="Smile icon">
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div>
-          <img src="./images/smile.svg" alt="Smile icon">
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+    <section class="membership-section">
+      <div class="membership-benefit">
+        <img src="./images/smileicon fm.png" alt="Smile icon">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <button>REGISTER FOR FREE</button>
+      <div class="membership-benefit">
+        <img src="./images/smileicon fm.png" alt="Smile icon">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="membership-benefit">
+        <img src="./images/smileicon fm.png" alt="Smile icon">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="membership-benefit">
+        <img src="./images/smileicon fm.png" alt="Smile icon">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <button class="register-btn">REGISTER FOR FREE</button>
     </section>
 
-    <!-- FAQ -->
-    <section>
-        <h2>F.A.Q</h2>
-        <div>
-            <div>
-                <div>
-                    <div>
-                        <h3>How does this work?</h3>
-                    </div>
-                    <div>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <h2>F.A.Q</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <h3>How does this work?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How does this work?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How does this work?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How does this work?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-                    <div>
-                        <h3>How does this work?</h3>
-                    </div>
-                    <div>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <h3>How does this work?</h3>
-                    </div>
-                    <div>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
-                    <div>
-                        <h3>How does this work?</h3>
-                    </div>
-                    <div>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-  <!-- Footer -->
   <footer>
-    <section>
-      <div>
-        <img src="./images/logo.png" alt="Smile School logo">
-        <div>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-        </div>
+    <div class="footer-top">
+      <img src="./images/logo.png" alt="Smile School logo">
+      <div class="footer-socials">
+        <img src="./images/Facebook_White.png" alt="Facebook">
+        <img src="./images/twitter.png" alt="Twitter">
+        <img src="./images/Instagram_White.png" alt="Instagram">
       </div>
-      <p>© SmileSchool 2020</p>
-    </section>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 SmileSchool. All rights reserved.
+    </div>
   </footer>
 </body>
 </html>

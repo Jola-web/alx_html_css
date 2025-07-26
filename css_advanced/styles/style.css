@@ -1,3 +1,11 @@
+ */
+body {
+  font-family: 'Source Sans Pro ', Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -14,107 +22,152 @@ nav ul {
   display: flex;
   gap: 30px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-}
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background-color: #000;
-  color: #fff;
-}
-
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-}
-
-.hero span {
-  margin: 0 10px;
   font-size: 18px;
-  color: #c271ff;
 }
 
-.hero button {
-  margin-top: 20px;
-  padding: 10px 20px;
+.hero-section {
+  background-image: url('../images/main hero background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 80px 20px 40px 20px;
+}
+
+.intro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.smile-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 20px 0;
+}
+
+.smile-row span {
+  font-size: 24px;
+  color: #c271ff;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.register-btn {
   background-color: #c271ff;
-  color: white;
+  color: #fff;
   border: none;
   border-radius: 30px;
+  padding: 12px 36px;
+  font-size: 18px;
   font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
-.pros {
-  background-color: #fff;
-  padding: 50px 60px;
+
+.learn-pros {
+  margin-top: 60px;
   text-align: center;
 }
 
-.pros h2 {
+.learn-pros h2 {
+  font-size: 32px;
+  color: #fff;
   margin-bottom: 40px;
 }
 
-.pros-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.pros-cards img {
-  border-radius: 50%;
-  width: 120px;
-}
 .pros-container {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 40px;
   flex-wrap: wrap;
-  padding: 20px 0;
 }
 
 .pro {
   text-align: center;
-  width: 200px; /* adjust if needed */
+  width: 200px;
 }
 
 .pro img {
-  width: 100%;
-  max-width: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
 }
 
-/* ========================
-   SECTION 4: Quote/Testimonial
-   ======================== */
+.pro h3 {
+  font-size: 20px;
+  margin: 10px 0 6px 0;
+  color: #fff;
+}
+
+.pro p {
+  font-size: 16px;
+  color: #fff;
+}
+
 .quote-section {
   display: flex;
   align-items: center;
   gap: 40px;
   padding: 60px 100px;
+  background: #c271ff;
 }
 
 .quote-section img {
-  max-width: 500px;
+  max-width: 300px;
   height: auto;
+  border-radius: 20px;
 }
 
-.quote-section .quote-text {
-  max-width: 600px;
+.quote-text blockquote {
   font-size: 24px;
-  line-height: 1.5;
   font-style: italic;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-/* ========================
-   SECTION 5: Popular Tutorials
-   ======================== */
+.quote-text h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #c271ff;
+}
+
+.quote-text p {
+  font-size: 16px;
+  color: #888;
+}
+
 .tutorials-section {
   padding: 80px 100px;
+  background: #fff;
+}
+
+.tutorials-section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
 }
 
 .tutorials-grid {
@@ -127,28 +180,56 @@ nav ul li a {
   background: #fff;
   border-radius: 10px;
   padding: 20px;
-  transition: transform 0.3s;
+  text-align: center;
   box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
 }
 
 .tutorial-card:hover {
   transform: translateY(-10px);
 }
 
-/* ========================
-   SECTION 6: Membership
-   ======================== */
+.tutorial-card img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.tutorial-card h3 {
+  font-size: 18px;
+  color: #c271ff;
+  margin: 0;
+}
+
 .membership-section {
-  background: #f9f9f9;
+  background: #071629;
   padding: 80px 100px;
   display: flex;
   justify-content: space-between;
   text-align: center;
+  flex-wrap: wrap;
+}
+
+.membership-heading {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.membership-btn-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .membership-benefit {
   flex: 1;
   margin: 0 20px;
+  min-width: 200px;
 }
 
 .membership-benefit img {
@@ -156,37 +237,53 @@ nav ul li a {
   margin-bottom: 20px;
 }
 
-/* ========================
-   SECTION 7: FAQ
-   ======================== */
-.membership-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.membership-benefit h3 {
+  font-size: 20px;
+  color: #f6f3f8;
+  margin-bottom: 10px;
+}
+
+.membership-benefit p {
+  font-size: 16px;
+  color: #f8f3f3;
+}
+
+.membership-section .register-btn {
+  margin-top: 40px;
+  align-self: center;
+}
+
+.faq-section {
+  padding: 60px 100px;
+  background: #fff;
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
-  padding: 40px 20px;
-  background-color: #fdf8f3; /* or any background color that matches Figma */
-  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.membership-text {
-  flex: 1;
+.faq-item h3 {
+  font-size: 20px;
+  color: #030303;
+  margin-bottom: 10px;
 }
 
-.membership-icon {
-  flex: 1;
-  display: flex;
-  justify-content: center;
+.faq-item p {
+  font-size: 16px;
+  color: #333;
 }
 
-.membership-icon img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* ========================
-   SECTION 8: Footer
-   ======================== */
 footer {
   background: #071629;
   color: white;
@@ -201,6 +298,8 @@ footer {
 
 .footer-socials img {
   margin-right: 20px;
+  width: 32px;
+  height: 32px;
 }
 
 .footer-bottom {
@@ -210,22 +309,39 @@ footer {
   color: #aaa;
 }
 
-/* ========================
-   MEDIA QUERIES
-   ======================== */
-@media (max-width: 768px) {
-  .pros-cards {
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .quote-section,
+  .tutorials-section,
+  .membership-section,
+  .faq-section,
+  footer {
+    padding: 40px 20px;
+  }
+  .tutorials-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .membership-section {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
-@media (max-width: 480px) {
-  .pros-cards {
+@media (max-width: 768px) {
+  .pros-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .tutorials-grid {
     grid-template-columns: 1fr;
   }
-
-  nav ul {
+  .faq-container {
+    grid-template-columns: 1fr;
+  }
+  nav {
     flex-direction: column;
     gap: 10px;
+    padding: 20px;
   }
 }
