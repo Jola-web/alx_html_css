@@ -1,0 +1,121 @@
+.bckgrd-img {
+    background: url(images/headphonehero1.png) no-repeat center;
+    background-size: cover;
+    align-content: center;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+nav div a { 
+   color: white;
+   text-decoration: none;
+   margin: 20px;
+   font-weight: bold; 
+}
+
+nav a:hover{
+ color:#ff6565;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/*hero-section*/
+
+.hero-sec {
+    text-align: center;
+    padding: 300px;
+    color: white;
+}
+
+.hero-sec h1 {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 120px;
+}
+
+.hero-sec h3 {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 130px;
+}
+
+.hero-sec button {
+    background-color: #FF6565 ;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 100px;
+    width: 162px;
+    position: relative;
+    top: 120px;
+}
+
+.hero-sec p {
+    font-size: 20px;
+    line-height: 1.6;
+    width: 800px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+
+/* What we do section*/
+
+.what-head {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.what-head h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.what-head p {
+    font-size: 20px;
+    width: 800px;
+    text-align: center;
+    line-height: 1.6;
+    margin-left: 350px;
+}
+
+.what-main {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.what-main img {
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+.what-main h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.what-main p {
+    font-size: 16px;
+    width: 200px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
